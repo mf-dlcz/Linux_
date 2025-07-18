@@ -38,4 +38,14 @@ as the bridge between the software and hardware components.
         - /dev/sda2
 
 
+## Directory Structure
 
+- The root directory (**/**) contains every other directory in the Linux operating system.
+- The **/bin** directory contains compiled programs (binaries) ready to run.
+- The **/lib** directory contains libraries needed by programs in **/bin**.
+- The **/home** directory contains a home folder for each user.
+- The **/usr** directory contains user applications and files.
+- The **/tmp** directory is used for temporary files that will be deleted when the system is restarted.
+- The **/var** directory contains variable data files. For example, log files are written to the /var/log directory.
+- The **/boot** directory contains files like the kernel needed to boot the system.
+- The **/etc** directory contains system configuration files.

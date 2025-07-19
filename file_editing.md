@@ -13,3 +13,10 @@ operators and the file descriptor number.
 - **2>** redirects the standard error.  
 - **0<** redirects the standard input.  
 You can use **<** because 0 is the default number.
+
+***The double greater than operator (>>) appends data to a file.***
+
+| Item |                In Stock                    |               Existing File                |     New File   |
+| :--: | :----------------------------------------: | :----------------------------------------: | :-------------:|
+| >    | Redirects output and overwrites the file.  | File contents are overwritten.             | File is created.
+| >>   | Redirects output and appends to the file.  | Output is appended to the end of the file. | file is created.

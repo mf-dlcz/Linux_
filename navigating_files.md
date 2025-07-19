@@ -22,3 +22,13 @@ In Linux, all of the following are represented as files:
 |  cd   | Change the current working directory    |
 | tree  | Displays the directory structure in a tree format |
 |  ls   | Lists the contents of a directory       |
+
+## Creating Files & Directories:
+
+|Command|                Description              |
+| :---: | :-------------------------------------: |
+| touch | Creates new, empty files or updates the timestamp  |
+|  cp   | Copies files and directories from one location to another  |
+| mkdir | Creates new directories |
+|  mv   | Moves or renames files and directories  |
+| rmdir | Removes an empty directory. To remove a non-empty directory & its content use **rm -r**  |

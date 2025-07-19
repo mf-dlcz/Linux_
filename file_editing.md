@@ -61,6 +61,11 @@ It is used to search for patters or regular expressions within files or input st
 $ grep OPTIONS [PATTERN][INPUTFILE]
 ```
 
+- Finds lines in **file.txt** that start with the word hello.
+```
+$ grep "^hello" file.txt
+```
+
 <br>
 
 **EXAMPLES:**  

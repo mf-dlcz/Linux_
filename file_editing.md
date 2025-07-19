@@ -73,3 +73,12 @@ $ grep "^hello" file.txt
 ```
 $ grep "pattern" file.txt
 ```
+
+<br>
+
+<br>
+
+## Piper Operator  (|)  
+The pipe (|) operator creates a pipeline of programs by redirecting the flow of data from one program to another.  
+
+This operator redirects the standard output but does not redirect the standard error flow of data.  

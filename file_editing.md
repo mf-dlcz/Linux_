@@ -16,7 +16,55 @@ You can use **<** because 0 is the default number.
 
 ***The double greater than operator (>>) appends data to a file.***
 
-| Item |                In Stock                    |               Existing File                |     New File   |
-| :--: | :----------------------------------------: | :----------------------------------------: | :-------------:|
-| >    | Redirects output and overwrites the file.  | File contents are overwritten.             | File is created.
-| >>   | Redirects output and appends to the file.  | Output is appended to the end of the file. | file is created.
+<br>
+
+| Operator |                Description                 |               Existing File                |     New File   |
+| :------: | :----------------------------------------: | :----------------------------------------: | :-------------:|
+|     >    | Redirects output and overwrites the file.  | File contents are overwritten.             | File is created.
+|     >>   | Redirects output and appends to the file.  | Output is appended to the end of the file. | file is created.
+
+<br>
+
+## Redirecting the Standard Output:
+
+```
+$command > file
+
+$command 1> file
+```
+<br>
+
+## Redirecting the Standard Error:
+
+```
+$command 2> file
+```
+
+<br>
+
+## Redirecting the Standard Input:
+```
+$command < file
+```
+
+<br>
+
+## Grep Command:
+The grep command stands for Globally search for a Regular Expression and Print.  
+It is used to search for patters or regular expressions within files or input streams.  
+
+<br>
+
+**SYNTAX**
+-  **OPTION** parameter is a regular expression 
+```
+$ grep OPTIONS [PATTERN][INPUTFILE]
+```
+
+<br>
+
+**EXAMPLES:**  
+- Searches for the literal string "pattern" in the **file.txt** and prints the matching lines
+```
+$ grep "pattern" file.txt
+```

@@ -18,10 +18,10 @@ You can use **<** because 0 is the default number.
 
 <br>
 
-| Operator |                Description                 |               Existing File                |     New File   |
-| :------: | :----------------------------------------: | :----------------------------------------: | :-------------:|
-|     >    | Redirects output and overwrites the file.  | File contents are overwritten.             | File is created.
-|     >>   | Redirects output and appends to the file.  | Output is appended to the end of the file. | file is created.
+| Operator |                Description                 |               Existing File                |     New File     |
+| :------: | :----------------------------------------: | :----------------------------------------: | :-------------:  |
+|     >    | Redirects output and overwrites the file.  | File contents are overwritten.             | File is created. |
+|     >>   | Redirects output and appends to the file.  | Output is appended to the end of the file. | file is created. |
 
 <br>
 

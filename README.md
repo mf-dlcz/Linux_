@@ -4,7 +4,7 @@
 
 - [Linux Commands](#linux-commands)
     - [Table of Contents](#table-of-contents)
-    - [Linux](#linux)
+    - [Intro To Linux](/intro_linux.md)
 
 
 ## Linux

@@ -1,4 +1,10 @@
-# Linux:
+# Intro to Linux:
+- Operating systems act as an intermediary between computer hardware and software applications.  
+
+## Roles and Functions of an OS
+- **Resource Management:** Allocates and manages system resources like CPU, memory, disk space and external devices.  
+- **File System:** Provides file management functionality for organizing, storing and retrieving data from storage devices.  
+- **UI:** Provides a GUI or CLI for users to interact with the system and it's apps.  
 
 ## Advantages of Linux:
 
@@ -16,7 +22,7 @@ as the bridge between the software and hardware components.
 
 - The **user space** is the area where the applications and programs run on the OS.
 
-## File System:
+### Linux File System:
 
 💡 The Linux file system is a hierarchical structure.
 

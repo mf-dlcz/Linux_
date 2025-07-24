@@ -1,10 +1,11 @@
-# Linux Commands
+# Linux
 
 ## Table of Contents
 
-- [Linux Commands](#linux-commands)
+- [Linux](#linux)
     - [Table of Contents](#table-of-contents)
     - [Intro To Linux](/intro_linux.md)
+    - []
 
 
 ## Linux

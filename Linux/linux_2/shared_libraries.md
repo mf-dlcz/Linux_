@@ -21,3 +21,7 @@
 
 > [!NOTE]
 > Static libraries usually follow a naming convention that adds the .a suffix to the end of each library name.
+
+<br>
+
+## Dynamic Shared Libraries:

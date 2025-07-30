@@ -25,3 +25,5 @@
 <br>
 
 ## Dynamic Shared Libraries:
+- During complilation, dynamic shared libraries used by program source code are referenced using links to those libraries, in their existing locations.
+- When the program is run, the program uses the dynamic links to the library files that it originally read at compilation time.

@@ -50,6 +50,6 @@
 ```
 <br>
 
-**libpthread** shared library name, usually prefixed with lib  
-**so** indicates this is a shared object  
-**0** Version number of the shared library
+- **libpthread** shared library name, usually prefixed with lib  
+- **so** indicates this is a shared object  
+- **0** Version number of the shared library

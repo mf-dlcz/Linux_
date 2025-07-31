@@ -27,3 +27,29 @@
 ## Dynamic Shared Libraries:
 - During complilation, dynamic shared libraries used by program source code are referenced using links to those libraries, in their existing locations.
 - When the program is run, the program uses the dynamic links to the library files that it originally read at compilation time.
+- There is no merge of the shared libraries into the final, standalone executable file.
+
+### Benefits:
+- **Produces a smaller final, standalone executable program file, which consumes less memory at runtime.**
+- The libraries **can be changed without recompiling the app.**
+
+### Challenges:
+- Apps load times can take longer while dynamic shared libraries are loaded into memory.
+- Missing or corrupted dynamic libraries can cause the executable program file to fail.
+- Multiple programs might require different versions of the same shared library at the same time.
+
+> [!NOTE]
+> File-naming convention for library files can help avoid challenges caused by multiple programs
+> requiring different version of the same shared library at the same time.
+> soname is composed of three parts:
+* prefix: example **lib**
+* designator **so**: stands for shared object
+* suffix: version number
+```
+/usr/lib64/libpthread.so.0
+```
+<br>
+
+**libpthread** shared library name, usually prefixed with lib  
+**so** indicates this is a shared object  
+**0** Version number of the shared library

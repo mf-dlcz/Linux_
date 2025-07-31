@@ -53,3 +53,17 @@
 - **libpthread** shared library name, usually prefixed with lib  
 - **so** indicates this is a shared object  
 - **0** Version number of the shared library
+
+## Configuring Files Used By Dynamic Shared Libraries
+- Used to display details about current shared library versions
+- Used to update the configuration files whenever new shared library locations are added to a Linux environment.
+
+```
+ldconfig -v
+```
+
+- Used to show the file name and location of the cache file used to pass details about shared library files to the linker during compilation.
+
+```
+ldconfig -p
+```

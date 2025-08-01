@@ -10,6 +10,7 @@
     - [Linux II](Linux/linux_2)
         - [Paths](/Linux/linux_2/paths.md)
         - [Shared Libraries](/Linux/linux_2/shared_libraries.md)
+    -[Windows Scripting](Linux/windows_scripting)
 
 
 ### By **MARIA 🖤**

@@ -13,3 +13,69 @@
 |  mkdir  | Creates a new directory.  |
 |    mv   | Moves or renames files and directory. |
 |  rmdir  | Removes an empty directory.  |
+
+<br>
+
+## Examples of File & Directory Operations:
+
+- **$** represents a regular user  
+
+Check current working directory
+```
+$ pwd
+```
+RESULT = **/home/ec2-user**
+
+<br>
+
+Create a new directory and subdirectory
+```
+$ mkdir project && mkdir project/temp
+```
+
+Change to project directory using absolute path
+```
+$ cd /home/ec2-user/project
+```
+
+Move back up to the parent directory
+```
+$ cd ..
+```
+
+Change to project directory using relative path
+```
+$ cd project
+```
+
+Create new file in project directory
+```
+$ touch index.html
+```
+
+List contents of project directory
+```
+$ ls
+``` 
+**index.html**  
+**/temp**
+
+<br>
+
+Move index.html to temp directory
+```
+$ mv index.html temp/
+```
+
+Find .html files in temp directory
+```
+find temp -name "*.html"
+```
+**temp/index.html**
+
+<br>
+
+Delete the entire temp directory
+```
+rm -rf temp/
+```

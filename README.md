@@ -11,6 +11,7 @@
         - [Paths](/Linux/linux_2/paths.md)
         - [Shared Libraries](/Linux/linux_2/shared_libraries.md)
     -[Windows Scripting](Linux/windows_scripting)
+        - [Intro to Scripting](Linux/linux_scripting/intro_scripting.md)
 
 
 ### By **MARIA 🖤**

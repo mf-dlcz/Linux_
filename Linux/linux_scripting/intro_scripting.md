@@ -51,7 +51,7 @@
 
 > [!NOTE]
 > Powershell scripts use the .ps1 file extension. 
-> Can either run interactively from the Powershell prompt  
+> Can either run interactively from the Powershell prompt
 > or run directly like any executable.  
 > Powershell uses a set of built-in commands known as cmdlets.  
 > Cmdlets follow a standard verb-noun naming scheme.

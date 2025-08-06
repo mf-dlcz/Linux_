@@ -12,6 +12,8 @@
         - [Shared Libraries](/Linux/linux_2/shared_libraries.md)
     - [Windows Scripting](Linux/windows_scripting)
         - [Intro to Scripting](Linux/linux_scripting/intro_scripting.md)
+        - [Synchronous & Asynchronous Processing](Linux/linux_scripting/synchronous_asynchronous.md)
+        
 
 
 ### By **MARIA 🖤**

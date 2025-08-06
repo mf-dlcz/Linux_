@@ -31,27 +31,27 @@
 
 ### Bash - used on Linux and Mac OS
 
-- [*] Best for the following cases
+❎ Best for the following cases
 - Compress and archive files for backup
 - Filter, parse and insert log files into databases
 - Schedule scripts to automate tasks
 - Deploy scripts to perform system administration and maintenance
 
 > [!NOTE]
-> bash scripts use the .sh file extension
+> bash scripts use the .sh file extension  
 > scripts written with bash start with a #!
 
 ### Powershell - Windows OS and built on .net
 
-- [*] Best for the following cases
+❎ Best for the following cases
 - User account management
 - Managing processes and services
 - Registry key management
 - Managing infrastructure as code
 
 > [!NOTE]
-> Powershell scripts use the .ps1 file extension
-> Can either run interactively from the Powershell prompt
-> or run directly like any executable.
-> Powershell uses a set of built-in commands known as cmdlets.
+> Powershell scripts use the .ps1 file extension. 
+> Can either run interactively from the Powershell prompt  
+> or run directly like any executable.  
+> Powershell uses a set of built-in commands known as cmdlets.  
 > Cmdlets follow a standard verb-noun naming scheme.

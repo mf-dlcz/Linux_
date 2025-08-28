@@ -13,7 +13,10 @@
     - [Windows Scripting](Linux/windows_scripting)
         - [Intro to Scripting](Linux/linux_scripting/intro_scripting.md)
         - [Synchronous & Asynchronous Processing](Linux/linux_scripting/synchronous_asynchronous.md)
-        - [Installing the AWS CLI]()
+        - [Installing the AWS CLI](Linux/linux_scripting/aws_cli)
+        - []()
+        - []()
+        - []()
 
 
-### By **MARIA 🖤**
+### By **María 🖤**

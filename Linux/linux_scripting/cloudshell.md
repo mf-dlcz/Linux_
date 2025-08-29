@@ -5,9 +5,9 @@ provision an EC2 instance.
 - Comes preconfigured with tools like PowerShell and Python.
 - Allows you to run commands using your preferred shell, such as Bash or PowerShell.
 
+<br>
 
-
-CloudShell cases
+## CloudShell cases
 - Testing and Troubleshooting
 - Quickly accessing resources to run scripts through the shell
 - Developing and testing Lambda functions by cloning code repositories into CloudShell

@@ -1,4 +1,4 @@
-# CloudShell overview
+# CloudShell Overview
 - Browser-based shell that is built right into the AWS Management Console.
 - Provides access to a Linux machine with the AWS CLI and tools, installed, all without the need to
 provision an EC2 instance.

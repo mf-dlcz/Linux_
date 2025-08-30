@@ -19,3 +19,29 @@ List all files/folders with permissions
 ```
 $ ls -la directory_name
 ```
+
+<br>
+
+## User File-Creation Mode Mask (Unmask)
+
+**Default permissions** come from the _unmask_, subtracting permissions from the system's defaults
+
+- Check the current unmask values
+```
+$ unmask
+```
+
+- Modify unmask values (default permissions)
+```
+$ unmask u=rwx, g=rx, o-rwx
+```
+
+The unmask has a default value of **0022** and affects the default permissions as follows:  
+
+
+| Permissions Type |       Files     |   Directories   |
+| :--------------: | :-------------: | :-------------: |
+|  System default permissions | 666 |  777  |
+|  unmask value |  022  |  022  |
+|  Resulting permissions |  666 - 022 = 644  |  777 - 022 = 755  |
+|  Symbolic form |  rw-r--r--  |  rwxr-xr-x  |

@@ -9,6 +9,7 @@
         - [Shell Variables](/Linux/linux_1/shell_variables.md)
     - [Linux II](Linux/linux_2)
         - [Paths](/Linux/linux_2/paths.md)
+        - [File Permissions](/Linux/linux_2/file_permissions.md)
         - [Shared Libraries](/Linux/linux_2/shared_libraries.md)
     - [Windows Scripting](Linux/windows_scripting)
         - [Intro to Scripting](Linux/linux_scripting/intro_scripting.md)

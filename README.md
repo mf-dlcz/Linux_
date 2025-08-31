@@ -11,6 +11,8 @@
         - [Paths](/Linux/linux_2/paths.md)
         - [File Permissions](/Linux/linux_2/file_permissions.md)
         - [Shared Libraries](/Linux/linux_2/shared_libraries.md)
+        - [Commands](Linux/linux_2/additional_commands.md)
+        - [Linux Package Management](Linux/linux_2/package_manager.md)
     - [Windows Scripting](Linux/windows_scripting)
         - [Intro to Scripting](Linux/linux_scripting/intro_scripting.md)
         - [Synchronous & Asynchronous Processing](Linux/linux_scripting/synchronous_asynchronous.md)

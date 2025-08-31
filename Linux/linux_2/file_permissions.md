@@ -86,8 +86,6 @@ $ chmod g+s directory_name
 $ chmod 2755 directory_name
 ```
 
-<br>
-
 ### Explanation of the command below:
 
 stat = A command that displays file info  
@@ -98,3 +96,13 @@ stat = A command that displays file info
 ```
 $ stat -c '%a %A' file_name
 ```
+<br>
+
+## Managing Processes
+- A process is a running program identified by its PID number, and can be viewed with commands like **ps** or **pstree**.
+
+
+|    Priority   |  Scale of a process |
+| :-----------: | :-----------------: |
+| High Priority |  -20 not nice|
+| Low Priority  |  19: nice  |

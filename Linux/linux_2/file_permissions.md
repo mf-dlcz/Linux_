@@ -19,6 +19,10 @@ List all files/folders with permissions
 ```
 $ ls -la directory_name
 ```
+or
+```
+$ ls -l directory_name
+```
 
 <br>
 
@@ -45,3 +49,52 @@ The unmask has a default value of **0022** and affects the default permissions a
 |  unmask value |  022  |  022  |
 |  Resulting permissions |  666 - 022 = 644  |  777 - 022 = 755  |
 |  Symbolic form |  rw-r--r--  |  rwxr-xr-x  |
+
+<br>
+
+## Special Permissions
+
+The **sticky bit (+t)** is used to control file deletion within a directory.
+- If set on a directory, only the file owner, directory owner, or root can delete or rename files.
+
+<br>
+
+- Set sticky bit using symbolic notation
+```
+$ chmod +t directory_name
+```
+
+- Set sticky bit using octal notation
+```
+$ chmod 1755 directory_name
+```
+
+The **set group ID (SGID) bit:**
+- If set on a directory, new files inherit the group ID of the directory, rather than that of the
+user who created the file.
+- If set on an executable file, it runs with the permissions of the file's group owner.
+
+<br>
+
+- Set SGID bit using symbolic notation
+```
+$ chmod g+s directory_name
+```
+
+- Set SGID bit using octal notation
+```
+$ chmod 2755 directory_name
+```
+
+<br>
+
+### Explanation of the command below:
+
+stat = A command that displays file info  
+-c = custom format  
+%a = shows permissions in numeric format  
+%A = shows permissions in a letter format
+
+```
+$ stat -c '%a %A' file_name
+```

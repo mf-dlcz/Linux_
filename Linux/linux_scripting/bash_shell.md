@@ -20,10 +20,23 @@ nano practice
 #!/bin/bash
 ```
 
-### Sample Script
-
+4. sample script
 ```
 #!/bin/bash
 name="Pat Cindirella"
 echo "Customer name is $name"
 ```
+
+5. To execute the file run the following command.
+```
+chmod +x practice
+```
+
+> !NOTE
+> **chmod** stands for change mode in Unix-like operating systems, including Linux.
+
+6. Run the script
+```
+./practice
+```
+

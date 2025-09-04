@@ -40,3 +40,10 @@ chmod +x practice
 ./practice
 ```
 
+## Bash Shell Elements
+
+- **Variables** store data that can be referenced and manipulated from a Bash script or the command line.
+- **Arrays** are variables that can hold multiple values. Can store and manipulate lists of items.
+- **Loops** repeatedly run a series of commands.
+- **Conditional** are control structures. Make decisions in your scripts based on certain conditions or criteria.
+- **Functions** encapsulate a series of commands into a single reusable unit.

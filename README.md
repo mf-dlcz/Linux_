@@ -19,7 +19,7 @@
         - [Installing the AWS CLI](Linux/linux_scripting/aws_cli.md)
         - [CloudShell Overview](Linux/linux_scripting/cloud_shell.md)
         - [Bash Shell Overview](Linux/linux_scripting/bash_shell.md)
-        - []()
+        - [Bash Fundamentals](Linux/linux_scripting/bash_fundamentals.md)
         - []()
         - []()
         - []() 

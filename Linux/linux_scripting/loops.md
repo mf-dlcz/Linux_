@@ -39,7 +39,49 @@ do
 done
 ```
 
-### For loops have three expressions
-- **initialization**
-- **condition**
-- **update**
+### For loops with three expressions
+- **initialization** sets an initial value of a loop variable
+- **condition** is evaluated before each iteration of the loop. If condition expression is _true_ the loop runs. If the condition is _false_ the loop terminates.
+- **update** (increment/decrement) runs at the end and it's responsible for updating the loop control variable in each iteration. It can be an increment or a decrement operation.
+
+```
+#!bin/bash
+for ((i=1 ;i<=5; i++))
+do
+    echo "Iteration $i"
+done
+```
+
+<br>
+
+## While Loops
+Runs a code block as long as a condition remains _true_.
+
+```
+while [ condition ]
+do
+[commands to be run in each iteration]
+done
+```
+
+> !NOTE
+> Comparison Operators in Bash  
+> -lt (less than)  
+> -le (less than or equal to)  
+> -ge (greater than or equal to)  
+> -gt (greater than)
+
+
+<br>
+
+## Until Loops
+Runs a code block as long as a condition remains _false_.
+
+```
+until [ condition ]
+do
+[commands to be run in each iteration]
+done
+```
+
+<br>

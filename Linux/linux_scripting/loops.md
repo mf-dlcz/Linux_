@@ -39,7 +39,7 @@ do
 done
 ```
 
-### For loops can contsind three expressions
-- initialization
-- condition
-- update
+### For loops have three expressions
+- **initialization**
+- **condition**
+- **update**

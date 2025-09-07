@@ -64,7 +64,7 @@ do
 done
 ```
 
-> !NOTE
+> [!NOTE]  
 > Comparison Operators in Bash  
 > -lt (less than)  
 > -le (less than or equal to)  
@@ -100,7 +100,7 @@ Format for scheduling scripts
 15 20 * 9 1-7 /path/to/hello_world.sh
 ```
 
-> !NOTE  
+> [!NOTE]    
 > **15** at 15 minutes past  
 > **20** at 20:00 (8:00 PM)  
 > **\***  day of month (* means every day)  

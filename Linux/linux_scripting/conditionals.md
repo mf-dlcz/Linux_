@@ -9,7 +9,7 @@ then
 fi
 ```
 
-> !NOTE
+> [!NOTE]  
 > The space before and after a **[ ]** construct are important for proper syntax and interpretation of the command.
 > Spaces are necessary to distinguish this construct from other parts of the command.
 

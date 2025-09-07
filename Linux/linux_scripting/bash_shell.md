@@ -32,7 +32,7 @@ echo "Customer name is $name"
 chmod +x practice
 ```
 
-> !NOTE
+> [!NOTE]  
 > **chmod** stands for change mode in Unix-like operating systems, including Linux.
 
 6. Run the script

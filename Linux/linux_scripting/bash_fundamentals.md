@@ -13,7 +13,7 @@
 - Are created by the user.
 - These variables are used to store custom data or values specific to ones script.
 
-> !NOTE
+> [!NOTE]  
 > **Capitalization in system-defined variables**
 > In Bash, system-defined variables are typically defined in capital letters.
 

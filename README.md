@@ -17,7 +17,7 @@
         - [Intro to Scripting](Linux/linux_scripting/intro_scripting.md)
         - [Synchronous & Asynchronous Processing](Linux/linux_scripting/synchronous_asynchronous.md)
         - [Installing the AWS CLI](Linux/linux_scripting/aws_cli.md)
-        - [CloudShell Overview](Linux/linux_scripting/cloud_shell.md)
+        - [CloudShell Overview](Linux/linux_scripting/cloudshell.md)
         - [Bash Shell Overview](Linux/linux_scripting/bash_shell.md)
         - [Bash Fundamentals](Linux/linux_scripting/bash_fundamentals.md)
         - [Functions](Linux/linux_scripting/functions.md)

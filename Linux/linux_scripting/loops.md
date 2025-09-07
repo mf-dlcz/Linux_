@@ -106,3 +106,16 @@ Format for scheduling scripts
 > **\***  day of month (* means every day)  
 > **9** month (September)  
 > **1-7** days of week (Monday through Sunday)
+
+- Add an entry using **crontab -e**
+- You can also save your cron job to a file and pass the file as a parameter to crontab.
+
+```
+crontab cronjobs.txt
+```
+
+> [!NOTE]  
+> You can list any script that you have previously scheduled using
+```
+crontab -l
+```

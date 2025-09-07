@@ -85,3 +85,24 @@ done
 ```
 
 <br>
+
+***
+
+## Scheduling A Script
+Format for scheduling scripts  
+```
+***** /path/to/script.sh
+```
+
+**minutes, hours, days, months, and weekdays.**
+
+```
+15 20 * 9 1-7 /path/to/hello_world.sh
+```
+
+> !NOTE  
+> **15** at 15 minutes past  
+> **20** at 20:00 (8:00 PM)  
+> **\***  day of month (* means every day)  
+> **9** month (September)  
+> **1-7** days of week (Monday through Sunday)

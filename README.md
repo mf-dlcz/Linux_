@@ -25,7 +25,7 @@
         - [Loops](Linux/linux_scripting/loops.md) 
         - [Bash Summary](Linux/linux_scripting/bash_summary.md)
         - [Troubleshooting Overview](Linux/linux_scripting/troubleshooting.md)
-        - []()
+        - [Trap and Exit](Linux/linux_scripting/trap_n_exit.md)
         - []()
         - []()
         - []()

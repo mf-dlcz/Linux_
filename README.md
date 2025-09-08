@@ -24,7 +24,7 @@
         - [Conditionals](Linux/linux_scripting/conditionals.md)
         - [Loops](Linux/linux_scripting/loops.md) 
         - [Bash Summary](Linux/linux_scripting/bash_summary.md)
-        - []()
+        - [Troubleshooting Overview](Linux/linux_scripting/troubleshooting.md)
         - []()
         - []()
         - []()

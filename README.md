@@ -27,7 +27,7 @@
         - [Troubleshooting Overview](Linux/linux_scripting/Error_Handling_In_Bash/troubleshooting.md)
         - [Trap and Exit](Linux/linux_scripting/Error_Handling_In_Bash/trap_n_exit.md)
         - [Retries and Backoff](Linux/linux_scripting/Error_Handling_In_Bash/retries_n_backoff.md)
-        - []()
+        - [Logging](Linux/linux_scripting/Error_Handling_In_Bash/logging.md)
         - []()
         - []()
         - []() 

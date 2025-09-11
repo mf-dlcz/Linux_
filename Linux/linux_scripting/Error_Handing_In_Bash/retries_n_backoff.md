@@ -67,3 +67,37 @@ fi
 ```
 
 ## Backoff
+- Refers to the practice of increasing the time interval between consecutive retry attempts in response to an error. 
+- Exponential backoff is a strategy you use to progressively increase the waiting time between retries.
+- The purpose of using backoff in retry mechanisms is to reduce the risk of overwhelming the target system and 
+to give it more time to recover or resolve the issue.
+
+```
+MAX_RETRIES=5                       # Will try 5 times total
+INITIAL_SLEEP_INTERVAL=3            # Starts by waiting 3 seconds
+BACKOFF_MULTIPLIER=2                # Doubles the wait time each try
+RETRYABLE_ERROR=1                   # Error code saying "okay to try again"
+
+retries=0                           # Start counting tries from zero
+
+sleep_interval=$INITIAL_SLEEP_INTERVAL      # Start with 3 second wait
+
+while [ $retries -lt $MAX_RETRIES ]; do     # Keep going until we hit 5 tries
+    # Try to check if website exists (it doesn't!)
+    curl -I https://nonexistenturl.com
+    
+    if [ $? -eq 0 ]; then                   # If it worked (it won't!)
+        break                               # Stop trying - we succeeded
+    else                                    # When it fails:
+        retries=$((retries + 1))            # Count this try
+        sleep $sleep_interval               # Wait before next try
+        sleep_interval=$((sleep_interval * BACKOFF_MULTIPLIER))     # Double the wait time
+    fi
+done
+
+# After all tries:
+if [ $retries -eq $MAX_RETRIES ]; then      # If we hit 5 tries
+    echo "Maximum retry attempts reached. Exiting script."      # Tell user
+    exit 1                                  # Exit with error
+fi
+```

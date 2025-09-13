@@ -29,7 +29,7 @@
         - [Retries and Backoff](Linux/linux_scripting/Error_Handling_In_Bash/retries_n_backoff.md)
         - [Logging](Linux/linux_scripting/Error_Handling_In_Bash/logging.md)
     - [Windows Scripting](Linux/windows_scripting)
-        - []()
+        - [AWS Tools for PowerShell](Linux/windows_scripting/AWS_tools.md)
         - []()
         - []() 
         - []()

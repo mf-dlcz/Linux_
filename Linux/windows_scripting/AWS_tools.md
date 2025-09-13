@@ -8,3 +8,10 @@
 5. Open Source Availability
 6. Modular Architecture
 
+## Key Features
+- There are three different packages of the AWS Tools for PowerShell.
+
+### AWS.Tools
+- Introduces a modularized approach to AWS Tools for PowerShell, so you can
+selectively load only the necessary service modules.
+- 

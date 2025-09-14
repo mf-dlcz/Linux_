@@ -20,7 +20,7 @@ selectively load only the necessary service modules.
 - Consists of a single module that contains support for all AWS services.
 - Appropriate for users who prefer a single, convenient-to-install module and are not concerned about module size.
 
-### AWESPowerShell
+### AWSPowerShell
 - This version of AWS Tools is compatible only with Windows computers that are running Windows PowerShell versions 2.0 through 5.1.
 - This legacy version is appropriate for users that are running older versions of PowerShell and are not able to upgrade.
 

@@ -62,3 +62,26 @@ $carWashPrices = @{
 $basicPrice = $carWashPrices["Basic"]
 Write-Host "Price for Basic wash: $basicPrice"
 ```
+
+## Functions
+- To define a function use the **function** keyword followed by the function name
+and a pair of curly braces that enclose the function body.
+
+```
+function MyFunction {
+    # Function body
+}
+```
+- Functions can accept parameters.
+- Parameters can have specific data types to enforce the type of values they can accept.
+- Define parameters with parentheses.
+
+```
+function StartCarWash {
+    param (
+        [string]$CarType
+    )
+        Write-Host "Washing $CarType."
+    }
+StartCarWash -CarType "Sedan"
+```

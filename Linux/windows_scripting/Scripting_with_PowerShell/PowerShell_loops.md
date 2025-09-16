@@ -24,7 +24,7 @@ for ($i = 0; $i -lt $cartypes.Length; $i++) {
 > [!NOTE]  
 > Use the **Count** method to determine the number of elements in an array or the number of characters in a string.
 
-## While Loop
+## While Loops
 
 > [!NOTE]  
 > PowerShell does not have a native **until** loop.

@@ -2,6 +2,7 @@
 - Conditionals are essential for decision-making in scripts.
 
 ## If Statements
+- Is a basic conditional statement for a single condition.
 ```
 # Car wash example
 $weather = "sunny"
@@ -11,6 +12,7 @@ if ($weather -eq "sunny") {
 ```
 
 ## If-Else Statements
+- Handles two conditions, but does not test multiple conditions sequentially.
 ```
 # Car wash example
 $weather = "rainy"
@@ -22,6 +24,7 @@ if ($weather -eq "sunny") {
 ```
 
 ## Else If Statements
+- Used to test multiple conditions in a sequence.
 ```
 # Car wash example
 $weather = "cloudy"

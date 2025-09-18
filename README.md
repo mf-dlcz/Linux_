@@ -34,7 +34,7 @@
         - [PowerShell Fundamentals](Linux/windows_scripting/Scripting_with_PowerShell/powershell_fundamentals.md) 
         - [Loops](Linux/windows_scripting/Scripting_with_PowerShell/PowerShell_loops.md)
         - [Conditional Statements](Linux/windows_scripting/Scripting_with_PowerShell/conditional_statements.md) 
-        - []()
+        - [Error Handling and Troubleshooting with PowerShell](Linux/windows_scripting/Scripting_with_PowerShell/error_handling.md)
         - []() 
         - []()
         - []() 

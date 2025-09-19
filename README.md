@@ -36,7 +36,7 @@
         - [Conditional Statements](Linux/windows_scripting/Scripting_with_PowerShell/conditional_statements.md) 
         - [Error Handling and Troubleshooting with PowerShell](Linux/windows_scripting/Scripting_with_PowerShell/error_handling.md)
         - [Exeption Handing Statements](Linux/windows_scripting/Scripting_with_PowerShell/exception_handling.md) 
-        - []()
+        - [Retries and Backoff](Linux/windows_scripting/Scripting_with_PowerShell/retries_n_backoff.md)
         - []() 
         - []()
         - []()

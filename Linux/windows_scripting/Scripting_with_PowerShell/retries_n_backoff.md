@@ -33,3 +33,26 @@ if ($Attempt -gt $MaxAttempts) {
 ```
 
 ## Exponential Backoff
+- Is a strategy that introduces increasing delays between successive retry attempts
+to reduce the load on systems during periods of high demand.
+
+```
+$MaxAttempts = 3
+$Attempt = 1
+
+while ($Attempt -le $MaxAttempts) {
+    try {
+        # Attempt a connection to the application server
+        $result = Invoke-RestMethod https://localhost:8088/info
+        break  # Exit the loop if the operation is successful
+    }
+    catch {
+        Write-Host "Attempt $Attempt failed: $_"
+        $Attempt++
+        Start-Sleep -Seconds (2 * $Attempt)  # Exponential backoff
+    }
+}
+if ($Attempt -gt $MaxAttempts) {
+    Write-Host "Operation failed after $MaxAttempts attempts."
+}
+```

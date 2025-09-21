@@ -28,3 +28,76 @@ Write-Error "This is an error message." 2>&1 | Out-File -Append $stderrLog
 ```
 
 ## Logging Functions
+- With custom logging, you _can control where log messages are directed, the format of those messages,
+and any additional actions you'd like to take when logging events._
+
+<br>
+
+In the following example we have a **Write-Log** function that takes a message, a log file path,
+and a log level as parameters.  
+
+You construct a log entry with a timestamp, log level, and log message.  
+
+Finally, the script demonstrates the use of the **Write-Log** function with different log messages 
+and levels. 
+
+```
+function Write-Log {
+    param(
+        [string]$Message,
+        [string]$LogFile = "script_log.txt",
+        [string]$LogLevel = "INFO"
+    )
+    $Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $LogEntry = "[$Timestamp] [$LogLevel] $Message"
+    # Output to stdout
+    Write-Output $LogEntry
+    # Output to log file
+    Add-Content -Path $LogFile -Value $LogEntry
+}
+# Example Usage:
+Write-Log -Message "Script started."
+Write-Log -Message "Processing data." -LogLevel "DEBUG"
+Write-Log -Message "An error occurred!" -LogLevel "ERROR"
+Write-Log -Message "Script completed."]r
+```
+
+> [!NOTE]  
+> Common log levels on PowerShell include **INFO**, **WARNING**, **ERROR**, and **DEBUG**.
+
+## Log Rotation
+- Use log rotation to manage log files by limiting their size or quantity.
+
+- Using log rotation ensures efficient use of storage space and makes it more convenient to 
+analyze and maintain logs.
+
+- In PowerShell, you can implement log rotation using a custom function that checks the size 
+of a log file and rotates it when it reaches a specific threshold.
+
+***
+
+The following script checks for the size of the current log file and rotates it if it exceeds the
+specified size.
+
+```
+$LogFilePath = "script_log.txt"
+$MaxLogSizeMB = 1
+if ((Get-Item $LogFilePath).length -gt ($MaxLogSizeMB * 1KB)) {
+    $TimeSeconds = [int64](Get-Date -UFormat %s)
+    Rename-Item $LogFilePath -NewName "script_log_$TimeSeconds.txt"
+    Write-Output "Log rotated." $LogFilePath
+}
+```
+
+## Centralized Logging
+- Involves aggregating log data from multiple sources into a central repository or service.
+
+- This streamlines log analysis, monitoring, and troubleshooting, especially in environments 
+with multiple servers or distributed systems.
+
+```
+$syslogserver = "syslog.example.com"
+$syslogport = 514
+$syslogmessage = "Log message to be sent to syslog server"
+Write-Host $syslogmessage | Send-Udpmessage -RemoteAddress $syslogserver -RemotePort $syslogport
+```

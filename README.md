@@ -35,10 +35,10 @@
         - [Loops](Linux/windows_scripting/Scripting_with_PowerShell/PowerShell_loops.md)
         - [Conditional Statements](Linux/windows_scripting/Scripting_with_PowerShell/conditional_statements.md) 
         - [Error Handling and Troubleshooting with PowerShell](Linux/windows_scripting/Scripting_with_PowerShell/error_handling.md)
-        - [Exeption Handing Statements](Linux/windows_scripting/Scripting_with_PowerShell/exception_handling.md) 
+        - [Exception Handing Statements](Linux/windows_scripting/Scripting_with_PowerShell/exception_handling.md) 
         - [Retries and Backoff](Linux/windows_scripting/Scripting_with_PowerShell/retries_n_backoff.md)
-        - []() 
-        - []()
+    - [Security, Monitoring, and Compliance](Linux/smc_1) 
+        - [Vulnerabilities, Threats, and Weaknesses](Linux/smc_1/vulnerabilities_threats_weaknesses.md)
         - []()
 
 ### By **María 🖤**
